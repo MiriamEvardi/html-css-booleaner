@@ -1,6 +1,5 @@
 * {
     margin: 1;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -39,4 +38,27 @@ span {
 .underline {
     background-color: yellow;
     color: black;
+    width: auto;
+}
+
+/*table*/
+.section {
+    background-color: #20a9e5;
+}
+
+.name {
+    color: white;
+    display: inline-bSlock;
+    width: 30%;
+}
+
+span {
+    color: black;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.section1 {
+    background-color: #b1e5f2;
 }
