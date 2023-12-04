@@ -48,7 +48,7 @@ span {
 
 .name {
     color: white;
-    display: inline-bSlock;
+    display: inline-block;
     width: 30%;
 }
 
