@@ -4,36 +4,29 @@
     box-sizing: border-box;
 }
 
-main {
-    padding-inline: 5%;
-}
-
+main,
 footer {
     padding-inline: 5%;
 }
 
 header {
-    padding-inline: 0;
-}
-
-ul {
-    margin-left: 1em;
-    margin-top: 20px;
-}
-
-h1 {
-    font-size: 3rem;
-}
-/*pattern top + logo*/
-.top {
     background-color:#4ea0ff;
     width: 100%;
     margin: 0%;
     padding-left: 5%;
-    position: relative;
     background-repeat: repeat;
     background-size: contain;
     background-image: url(../img/pattern.png);
+}
+
+/*main title*/
+h1 {
+    font-size: 3rem;
+}
+ /*unordered list*/
+ul {
+    margin-left: 1em;
+    margin-top: 20px;
 }
 
 /*credits*/
@@ -41,11 +34,6 @@ h2 {
     color: gray;
     font-size: large;
     margin-top: 20px;
-
-}
-
-span {
-    color: #4ea0ff;
 }
 
 .date {
@@ -62,6 +50,11 @@ span {
     background-color: yellow;
     color: black;
     width: auto;
+}
+
+/*paragraph*/
+p {
+    margin-block: 2%;
 }
 
 /*table*/
@@ -88,9 +81,8 @@ tr {
 }
 
 /*written on the images*/
-#lorem {
+footer div {
     margin-top: 10px;
-    background-image: url('../img/monitor.jpg');
     color: #FFFFFF;
     font-size: 110%;
     font-weight: normal;
@@ -99,13 +91,10 @@ tr {
     height: 150px;
 }
 
+#lorem {
+    background-image: url('../img/monitor.jpg');
+}
+
 #lorem1 {
-    margin-top: 10px;
     background-image: url('../img/graph.jpg');
-    color: #FFFFFF;
-    font-size: 110%;
-    font-weight: normal;
-    text-align: center;
-    width: 240px;
-    height: 150px;
 }
