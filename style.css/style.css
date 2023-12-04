@@ -52,7 +52,7 @@ span {
     width: 30%;
 }
 
-span {
+.subject {
     color: black;
     display: inline-block;
     width: 30%;
@@ -61,4 +61,27 @@ span {
 
 .section1 {
     background-color: #b1e5f2;
+}
+
+/*written on the images*/
+#lorem {
+    margin: 0px;
+    background-image: url('../img/monitor.jpg');
+    color: #FFFFFF;
+    font-size: 110%;
+    font-weight: normal;
+    text-align: center;
+    width: 240px;
+    height: 150px;
+}
+
+#lorem1 {
+    margin: 0px;
+    background-image: url('../img/graph.jpg');
+    color: #FFFFFF;
+    font-size: 110%;
+    font-weight: normal;
+    text-align: center;
+    width: 240px;
+    height: 150px;
 }
