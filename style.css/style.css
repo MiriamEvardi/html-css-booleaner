@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*pattern top + logo*/
+.top {
+    background-color:#4ea0ff;
+    width: 1450px;
+    height: 100px;
+    margin: 0%;
+    position: relative;
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url(../img/pattern.png);
+}
+
+/*credits*/
+h2 {
+    color: gray;
+    font-size: medium;
+}
+
+span {
+    color: #4ea0ff;
+}
+
+.date {
+    color: gray;
+}
