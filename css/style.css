@@ -41,6 +41,10 @@ h2 {
     margin: 1;
 }
 
+#booleaner {
+    color: #4ea0ff;
+}
+
 /*photo description*/
 .photo {
     font-size: small;
