@@ -97,8 +97,10 @@ footer div {
 
 #lorem {
     background-image: url('../img/monitor.jpg');
+    background-size: 100% 100%;
 }
 
 #lorem1 {
     background-image: url('../img/graph.jpg');
+    background-size: 100% 100%;
 }
